@@ -8,22 +8,25 @@
 
 /* COMMON */
 body{
-    background-color: lightblue;
+    background-color: white;
 }
 
 .container{
     width: 70%;
-    background-color: white;
     margin:auto;
-    padding: 70px 100px;
+    padding: 120px 100px;
 }
 
 .col{
     width: calc(90%/3);
     background-color: black;
     float: left;
-    margin-right: 20px;
-    margin-top: 20px;
+    margin: 20px 15px;
+    box-shadow: 1px 1px 7px rgba(100, 100, 100, 0.8);
+}
+
+.colum{
+    padding: 25px 25px;
 }
 
 img{
@@ -57,7 +60,8 @@ h1{
 
 .subtitle{
     text-align: center;
-    margin: 35px 0;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 h3{
@@ -71,4 +75,5 @@ h3{
 .mail{
     font-size: 14px;
     color: #1ca3d8;
+    font-style: italic;
 }
