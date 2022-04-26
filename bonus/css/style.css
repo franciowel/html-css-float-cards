@@ -1,0 +1,103 @@
+/* RESET PAGINA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fredoka, sans-serif;
+}
+
+/* COMMON */
+body{
+    background-color: white;
+}
+
+.container{
+    width: 70%;
+    margin:auto;
+    padding: 120px 100px;
+}
+
+.col{
+    width: calc(90%/3);
+    background-color: white;
+    float: left;
+    margin: 20px 15px;
+    border-radius: 20px;
+    border: 1px solid #1ca3d8;
+    /* box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.1); */
+}
+
+.colum{
+    padding: 15px 25px;
+}
+
+.bloc{
+    width: 160px;
+    height: 82px;
+    margin: 20px 15px;
+    float: left;
+}
+
+
+img{
+    width: 25%;
+    float: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid lightgrey;
+}
+
+.card{
+    color: #1ca3d8;
+    float: left;
+    padding: 0px 10px;
+}
+
+.info{
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+/* PAGINA */
+h1,h2{
+    text-align: center;
+    color: #1ca3d8;
+    margin: 15px
+}
+
+.subtitle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3{
+    margin-top: 5px;
+}
+
+.job{
+    font-size: 15px;
+}
+
+.mail{
+    font-size: 14px;
+    color: #1ca3d8;
+    font-style: italic;
+}
+
+/* OTHER */
+.mail:hover{
+    text-decoration: underline;
+    color: #e53170;
+
+}
+
+.col:hover{
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.1);
+}
