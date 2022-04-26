@@ -8,5 +8,67 @@
 
 /* COMMON */
 body{
-    background-color: #fffffe;
+    background-color: lightblue;
+}
+
+.container{
+    width: 70%;
+    background-color: white;
+    margin:auto;
+    padding: 70px 100px;
+}
+
+.col{
+    width: calc(90%/3);
+    background-color: black;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+img{
+    width: 25%;
+    float: left;
+}
+
+.card{
+    color: white;
+    float: left;
+    padding: 0px 10px;
+}
+
+.info{
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+/* PAGINA */
+h1{
+    text-align: center;
+    color: #e53170;
+}
+
+.subtitle{
+    text-align: center;
+    margin: 35px 0;
+}
+
+h3{
+    margin-top: 5px;
+}
+
+.job{
+    font-size: 15px;
+}
+
+.mail{
+    font-size: 14px;
+    color: #1ca3d8;
 }
