@@ -1,3 +1,4 @@
+/* RESET PAGINA */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     font-family: fredoka, sans-serif;
 }
 
+/* COMMON */
 body{
     background-color: #fffffe;
 }
