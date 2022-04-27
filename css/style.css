@@ -18,11 +18,9 @@ body{
 }
 
 .col{
-    width: calc(90%/3);
-    background-color: black;
+    width: calc(100%/3);
     float: left;
-    margin: 20px 15px;
-    box-shadow: 1px 1px 7px rgba(100, 100, 100, 0.8);
+    padding: 0 10px;
 }
 
 .colum{
@@ -30,14 +28,21 @@ body{
 }
 
 img{
-    width: 25%;
+    width: 100px;
     float: left;
 }
 
 .card{
+    background-color: black;
     color: white;
-    float: left;
-    padding: 0px 10px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 7px rgba(100, 100, 100, 0.8);
+}
+
+.card-content {
+    float: right;
+    width: calc(100% - 100px);
+    padding: 10px;
 }
 
 .info{
