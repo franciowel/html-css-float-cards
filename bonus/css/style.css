@@ -18,13 +18,9 @@ body{
 }
 
 .col{
-    width: calc(90%/3);
-    background-color: white;
+    width: calc(100%/3);
     float: left;
-    margin: 20px 15px;
-    border-radius: 20px;
-    border: 1px solid #1ca3d8;
-    /* box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.1); */
+    padding: 0 10px;
 }
 
 .colum{
@@ -38,7 +34,6 @@ body{
     float: left;
 }
 
-
 img{
     width: 25%;
     float: left;
@@ -47,16 +42,35 @@ img{
     border-right: 1px solid lightgrey;
 }
 
+img{
+        width: 100px;
+        float: left;
+        border-right: 3px solid gray;
+}
+
 .card{
     color: #1ca3d8;
-    float: left;
-    padding: 0px 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.1);
 }
+
+.card-content{
+    float: right;
+    width: calc(100% - 100px);
+    padding: 10px;
+}
+
 
 .info{
     display: block;
     text-align: left;
     margin-top: 5px;
+}
+
+.ceo{
+    display: flex;
+    justify-content: center;
 }
 
 .clearfix::after{
@@ -98,6 +112,6 @@ h3{
 
 }
 
-.col:hover{
-    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.1);
+img:hover{
+    border-right: 3px solid #1ca3d8;
 }
